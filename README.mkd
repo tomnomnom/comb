@@ -75,4 +75,14 @@ Separator:
 
 ## Can't you just do this with a couple of nested bash loops?
 
-Yes, but it's a PITA to type.
+Yes, but it's a PITA to type this:
+
+```
+▶ while read prefix; do while read suffix; do echo $prefix$suffix; done < suffixes; done < prefixes
+1A
+1B
+1C
+2A
+2B
+2C
+```

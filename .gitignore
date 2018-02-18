@@ -2,3 +2,6 @@
 comb
 prefixes
 suffixes
+*.exe
+*.zip
+*.tgz

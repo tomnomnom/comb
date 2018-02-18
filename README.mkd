@@ -9,6 +9,9 @@ called the cartesian product but don't quote me on that.
 ▶ go get -u github.com/tomnomnom/comb
 ```
 
+Or [download a binary](https://github.com/tomnomnom/comb/releases) and put
+it somewhere in your `$PATH` (e.g. `/usr/bin/comb`).
+
 ## Usage
 
 ```
